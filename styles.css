@@ -169,7 +169,7 @@ section h3{
 }
 
 .intro{
-  margin-right:10vw;
+  margin-right: 10vw;
 }
 
 .updated-mark{
@@ -177,5 +177,5 @@ font-family: 'Chivo', sans-serif;
 font-size: 16px;
 line-height: 20px;
 text-decoration: none;
-color: #990033;
+color: #990033 !important;
 }
