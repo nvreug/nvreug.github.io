@@ -1,0 +1,176 @@
+\documentclass[margin,line]{res}
+\renewcommand{\baselinestretch}{1.2} 
+% File produced by Jeremy West
+% This file may be distributed and/or modified:
+%   1. under the LaTeX Project Public License and/or
+%   2. under the GNU Public License.
+
+% NOTE: you also need the (included) res.cls class file to compile this document
+% Either place the .cls file in the same directory (folder) as this .tex file, or install it globally for your LaTeX distribution (search online for how to do so).
+
+\usepackage[dvipsnames]{xcolor}
+\usepackage[export]{adjustbox}
+\usepackage{graphicx}
+\usepackage{times}
+\usepackage{setspace}                                    % Allows for custom margins, etc.
+\usepackage{fullpage}                                    % Use the full page
+\usepackage[latin9]{inputenc}                            % Font definition and input type
+\usepackage[T1]{fontenc}                                 % Font output type
+\usepackage{mmap}                                        % Allows glyphs (e.g. ff) to copy properly (ASCII)
+\usepackage{textcomp}                                    % Supports many symbols such as copyright
+\usepackage{color}                                       % Allow for colored text, etc.
+\usepackage[]{hyperref}                                  % Allow hyperlinks (internal and external)
+\hypersetup{                                             % Custom hyperlink settings
+    pdffitwindow=true,                                  % Window fit to page when opened
+    pdfstartview={XYZ null null 1.00},                   % Fits the zoom of the page to 100%
+    pdfnewwindow=true,                                   % Links in new window
+    colorlinks=true,                                     % false: boxed links; true: colored links
+    linkcolor=black,                                     % Color of internal links (black is necessary for printing quality)
+    citecolor=black,                                     % Color of links to bibliography
+    urlcolor=blue,                                      % Color of external links
+    pdfauthor = {Nicholas Vreugdenhil},
+    pdfkeywords = {Economics, Northwestern},
+    pdftitle = {CV, Nicholas Vreugdenhil},
+    pdfsubject = {Curriculum Vitae},
+    pdfpagemode = UseNone}
+
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+% if using pdflatex:
+\setlength{\pdfpagewidth}{\paperwidth}
+\setlength{\pdfpageheight}{\paperheight}
+
+	\addtolength{\topmargin}{-.3in}
+	\addtolength{\textheight}{0.6in}
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{.025in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+\usepackage[nodayofweek]{datetime}                                    % Custom date format for date field
+\newdateformat{mydate}{\monthname[\THEMONTH] \THEYEAR}   % Defining month year date format
+
+\usepackage{fancyhdr}                                    % Used for custom page headers
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.5pt}
+\rhead{\footnotesize Nicholas Vreugdenhil \thepage} %header at the right
+\headsep = 0.5cm
+% FIRST PAGE ONLY (redefine the plain pagestyle)
+\fancypagestyle{plain}{
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\headsep = 0.0cm
+%\rhead{\footnotesize Last updated \today}
+%\rhead{\footnotesize \includegraphics[scale=.11]{Shorthand-Vertical-Purple}}
+}
+
+
+\begin{document}
+\pretolerance=10000
+
+~\\
+~\\
+\name{  {\LARGE  Nicholas Vreugdenhil } \vspace*{.1in}}
+
+\begin{resume}
+\thispagestyle{plain} % to use first page footer
+
+\section{ Contact Information}
+\vspace{.05in}
+\begin{tabular}{@{}p{0.20in}p{2.75in}p{2.75in}}
+ &  \href{mailto: nvreugde@asu.edu}{nvreugde@asu.edu}   & \\
+ &\href{https://nvreug.github.io}{https://nvreug.github.io} & \\ 
+% & Department of Economics \\
+% & W.P. Carey School of Business \\
+% & Arizona State University \\
+ % & 501 E Orange St, \\
+ % & Tempe, AZ, 85281
+\end{tabular}
+
+\section{Citizenship}
+\begin{list1}
+	\item[] Australian
+	\vspace*{.05in}
+\end{list1}
+
+\section{ Fields}
+\begin{list1}
+\item[] Industrial Organization, Energy
+\vspace*{.05in}
+\end{list1}
+
+\section{ Employment}
+\begin{list1}
+	\item[] Arizona State University, W.P. Carey School of Business: 
+	\item[] \hspace{11pt} Assistant Professor (Economics), July 2020 -
+	\item[] Uber: 
+	\item[] \hspace{11pt} Economist, August 2019 - June 2020
+	\vspace*{.05in}
+\end{list1}
+
+\section{ Education}\begin{tiny}
+
+\end{tiny}
+\begin{list1}
+\item[] Ph.D., Economics, Northwestern University, 2019
+	\begin{list2}
+		\item[] Dissertation: Essays in Industrial Organization
+		\item[] Committee: Robert Porter (Chair), Mar Reguant, Gaston Illanes
+	\end{list2}
+\item[] Bachelor of Science (Mathematics), Australian National University, 2013
+\item[] Bachelor of Economics (First Class Honors), Australian National University, 2012
+\end{list1}
+
+\section{Fellowships \& Awards}
+\begin{list1}
+\item[] Dissertation Fellowship, Northwestern University, 2018
+\item[] Distinguished Teaching Assistant, Northwestern University, 2015
+\item[] Graduate Fellowship, Northwestern University, 2013
+\item[] Prize for the top student in Economics (Honors), Australian National University, 2011
+\item[] National Undergraduate Scholarship, Australian National University
+\item[] Charles Hawker Memorial Scholarship, Australian National University
+\end{list1}
+
+\section{ Conferences and Seminars}
+\begin{list1}
+\item[] 2019-2020: ASU, Cornell, Duke Fuqua, IIOC Rising Stars Session, LSE (Management), Microsoft Research, Monash University, NYU, NYU (Stern), Penn State, UCL, U Maryland AREC
+\item[] 2018: Northwestern Energy Fest (Egg-timer), Monash University
+\end{list1}
+
+\section{Papers}
+\begin{list1}
+\item[] ``Booms, Busts, and Mismatch in Capital Markets: Evidence from the Offshore Oil and Gas Industry''
+
+\item[] ``Incomplete Environmental Regulation and Spatial Misallocation in the Offshore Oil and Gas Industry''
+\end{list1}
+
+\section{Teaching Experience}
+\begin{list1}
+	\item[] Teaching Assistant, Northwestern University, 2014-2016
+	\begin{list2}
+		\item[] Introduction to Microeconomics
+		\item[] Intermediate Microeconomics
+		\item[] Introduction to Applied Econometrics
+	\end{list2}
+\end{list1}
+
+\section{Last Updated} 
+	\begin{list1} 
+		\item[] August 2020 
+	\end{list1}
+
+\end{resume}
+\end{document}
