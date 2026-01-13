@@ -161,6 +161,8 @@ section h3{
 .paper-section{
   padding-bottom: 174px;
   margin-left:-15px;
+  padding-right: 0;
+  margin-right: -5px;
 
 }
 .paper-section > .section-content:first-child{
@@ -180,7 +182,7 @@ section h3{
 
 .section-content p{
   margin-top:12px;
-  padding-right: 14%;
+  padding-right: 5%;
 }
 
 .intro{
