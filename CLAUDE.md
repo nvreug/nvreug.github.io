@@ -2,15 +2,15 @@
 
 ## CV Management
 
-The authoritative CV source is maintained in Overleaf and synced via Dropbox:
+The single source of truth for the CV is in this repo:
 
-**CV Source Path:** `/Users/nicholasvreugdenhil/Dropbox (Personal)/Apps/Overleaf/cv/cv.tex`
+**CV Source Path:** `/Users/nicholasvreugdenhil/Dropbox (Personal)/nvreug.github.io/cv/cv.tex`
 
 ### Workflow for CV Updates:
 
-1. Edit the CV at the Overleaf path above
-2. Compile the PDF: `cd /Users/nicholasvreugdenhil/Dropbox\ \(Personal\)/Apps/Overleaf/cv && pdflatex cv.tex`
-3. Copy to website: `cp /Users/nicholasvreugdenhil/Dropbox\ \(Personal\)/Apps/Overleaf/cv/cv.pdf /Users/nicholasvreugdenhil/Dropbox\ \(Personal\)/nvreug.github.io/paper/cv.pdf`
-4. Commit and push the updated PDF in the website repository
+1. Edit `cv/cv.tex` in this repo
+2. Compile the PDF: `cd cv && pdflatex cv.tex` (run twice for cross-references)
+3. Copy to website: `cp cv/cv.pdf paper/cv.pdf` (the website links to `paper/cv.pdf`)
+4. Commit `cv/cv.tex` and `paper/cv.pdf`, then push
 
-**Note:** The CV in `/Users/nicholasvreugdenhil/Dropbox (Personal)/nvreug.github.io/cv/` is NOT the source of truth - always use the Overleaf version.
+**Note:** The old Overleaf copy (`/Users/nicholasvreugdenhil/Dropbox (Personal)/Apps/Overleaf/cv/cv.tex`) is DEPRECATED as of August 2026. Do not edit it. The two copies diverged in July–August 2026 and were merged on 2026-08-29; the repo has been the single source since.
